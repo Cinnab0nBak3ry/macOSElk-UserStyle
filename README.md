@@ -1,4 +1,4 @@
-# macOSElk [![](https://img.shields.io/badge/install%20with-stylus-006666?style=flat-square)](https://github.com/SlippingGitty/Espresso-Mastodon/raw/main/EspressoMastodon.user.css)
+# macOSElk [![](https://img.shields.io/badge/install%20with-stylus-006666?style=flat-square)](https://github.com/SlippingGitty/macOSElk/raw/main/macOSElk.user.css)
 Elk.zone but like macOS
 
 ## Dark
