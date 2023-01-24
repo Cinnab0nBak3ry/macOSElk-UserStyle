@@ -19,3 +19,9 @@ I only have this here in case anyone wants to yell at me on how to do things bet
 ![Screenshot 2023-01-24 at 11 17 52 AM](https://user-images.githubusercontent.com/76500838/214362435-4507a9bc-56ac-418f-a46e-58f3a69c2d0a.png)
 
 </details>
+
+___
+
+### Looking for this?
+* This is a *userstyle*, an add on for the elk.zone website, and should not be confused with the Native application of elk.zone made by the Elk Team.
+  * https://github.com/elk-zone/elk-native 
