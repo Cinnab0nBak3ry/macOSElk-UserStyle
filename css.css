@@ -6,7 +6,7 @@
     --c-border: rgb(15,59,58);
     --c-border-dark: rgb(15,59,58);
     --rgb-bg-base: rga(17,17,17);
-    --c-bg-active: var(--PGBackground2D);
+    --c-bg-active: rgb(40,40,40);
     --c-bg-card: #ffffff06;
     --c-bg-code: #ffffff06;
     --c-bg-dm: rgb(15,59,58);
@@ -14,7 +14,7 @@
     --c-text-base: rgb(224,224,224);
     --c-text-secondary: rgba(108,112,117);
     --c-text-secondary-light: rgba(108,112,117);
-    --c-bg-btn-disabled: var(--PGBackground2D);
+    --c-bg-btn-disabled: rgb(40,40,40);
     --c-text-btn-disabled: rgba(35,145,223, 0.612);
 }
 
@@ -33,7 +33,7 @@ html {
     display: none;
 }
 #__nuxt > div:nth-child(2) > main > aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide {
-    width: 10%;
+    width: auto;
     border-right: solid 1px rgb(15,59,58);
 }
 .sm\:mxa, [sm\:mxa=""] {
@@ -44,12 +44,19 @@ html {
 #__nuxt > div:nth-child(2) > main > div {
   margin: auto;
   width: 90%;
-  padding: 10px;
+  padding: 0px;
 }
 [p~=l-3] {
   margin: auto;
   width: 90%;
   padding: 10px;
+}
+.vue-recycle-scroller.ready.direction-vertical .vue-recycle-scroller__item-view {
+    width: 80%;
+}
+.vue-recycle-scroller.direction-vertical .vue-recycle-scroller__item-wrapper {
+    width: 90%;
+    margin-left: auto;
 }
 #__nuxt > div:nth-child(2) > main > div > div:nth-child(1) > div > div:nth-child(1), #__nuxt > div:nth-child(2) > main > aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide > div > div > nav > div:nth-child(1), #__nuxt > div:nth-child(2) > main > aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide > div > div > nav > div:nth-child(4) {
     display: none;
