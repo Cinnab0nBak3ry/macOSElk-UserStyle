@@ -62,7 +62,7 @@ html {
 
 /* Quilt */
 #__nuxt > div:nth-child(2) > main > aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide > div > div > nav > a:nth-child(10) > div > div {
-    background: rgb(54,159,230);
+    background: var(--accentD);
     border-radius: 100px;
     height: 50px;
     width: 50px
