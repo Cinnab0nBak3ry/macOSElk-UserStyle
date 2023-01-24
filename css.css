@@ -1,3 +1,4 @@
+@-moz-document domain("elk.zone") {
 .dark {
     --c-primary: rgb(35,145,223) !important;
     --c-primary-active: rgb(35,145,223) !important;
@@ -48,14 +49,14 @@ html {
 }
 [p~=l-3] {
   margin: auto;
-  width: 90%;
+  width: 100%;
   padding: 10px;
 }
 .vue-recycle-scroller.ready.direction-vertical .vue-recycle-scroller__item-view {
-    width: 80%;
+    width: 100%;
 }
 .vue-recycle-scroller.direction-vertical .vue-recycle-scroller__item-wrapper {
-    width: 90%;
+    width: 100%;
     margin-left: auto;
 }
 #__nuxt > div:nth-child(2) > main > div > div:nth-child(1) > div > div:nth-child(1), #__nuxt > div:nth-child(2) > main > aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide > div > div > nav > div:nth-child(1), #__nuxt > div:nth-child(2) > main > aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide > div > div > nav > div:nth-child(4) {
@@ -78,4 +79,11 @@ html {
 }
 #__nuxt > div:nth-child(2) > main > aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide > div > div > nav > a:nth-child(3) {
     display: none;
+}
+}
+
+@-moz-document url-prefix("https://elk.zone/home") {
+#__nuxt > div:nth-child(2) > main > div > div:nth-child(1) > div > div.sm\:max-w-600px.md\:shrink-0 > div > div:nth-child(1) {
+    display: none;
+}
 }
