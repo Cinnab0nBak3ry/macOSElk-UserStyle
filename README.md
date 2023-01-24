@@ -6,6 +6,8 @@
 
 ## ⚠️ WARNING WORK IN PROGRESS THIS IS SUPER BROKEN AND ALSO UHhm... h-help is wanted.. u-uwu? ⚠️
 
+I only have this here in case anyone wants to yell at me on how to do things better or if anyone wants to contribute their own things and stuff
+
 * Install by pressing "Install with Stylus" see look it says that --> [![](https://img.shields.io/badge/install%20with-stylus-006666?style=flat-square)](https://github.com/SlippingGitty/macOSElk/raw/main/macOSElk.user.css)
 
 <details>
