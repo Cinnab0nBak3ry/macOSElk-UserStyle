@@ -36,9 +36,10 @@
     --c-bg-btn-disabled: rgb(40,40,40);
     --c-text-btn-disabled: rgba(35,145,223, 0.612);
     --c-background-amoled: black;
-    --c-background-dark: rgb(14,17,19);
+    --c-background-dark: rgb(16,19,22);
     --c-background-midnight: rgb(21,32,43);
     --c-sidebar-midnight: rgb(28, 47, 66);
+    --c-sidebar-dark: rgb(40,40,40);
 }
 
 /* ---- Background & Text Color ----- */
