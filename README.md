@@ -1,7 +1,7 @@
 <h1 align="center">macOS Elk</h1>
 <p align="center">Userstyle that makes Elk.zone look even MORE like Twitter</p>
 
-![Screenshot 2023-01-24 at 11 15 58 AM](https://user-images.githubusercontent.com/76500838/214362022-b6a4aa4a-48d4-4d0d-ac40-20cc8ea9a54f.png)
+![Screenshot 2023-01-25 at 8 16 29 AM](https://user-images.githubusercontent.com/76500838/214586882-5e3597cf-242e-4b47-b1c1-daa8d7d50a64.png)
 
 
 ## ⚠️ WARNING WORK IN PROGRESS THIS IS SUPER BROKEN AND ALSO UHhm... h-help is wanted.. u-uwu? ⚠️
