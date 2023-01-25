@@ -99,8 +99,7 @@ html {
     margin-left: auto;
 }
 #__nuxt > div:nth-child(2) > main > div > div:nth-child(1) > div > div:nth-child(1), #__nuxt > div:nth-child(2) > main > aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide > div > div > nav > div:nth-child(1), #__nuxt > div:nth-child(2) > main > aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide > div > div > nav > div:nth-child(4) {
-    /* backdrop-filter: blur(50px); */
-    display: none;
+    backdrop-filter: blur(50px);
 }
 #__nuxt > div:nth-child(2) > main > aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide > div > div > div:nth-child(1) {
     display: none;
