@@ -19,21 +19,25 @@ One bored day, I thought that it would be cool if this website looked more like 
 ## Screenshots 📰
 
 <details>
-<summary>More colors</summary>
+
+<summary>Various Color Options</summary>
 
 ## OLED
-![Screenshot 2023-01-24 at 11 16 32 AM](https://user-images.githubusercontent.com/76500838/214362147-610c5515-406e-4424-8771-2d447cceb064.png)
+![Screenshot 2023-01-26 at 10 22 32 AM](https://user-images.githubusercontent.com/76500838/214890660-50469c3f-40f8-451f-93ba-064272501ec7.png)
+
 ## Midnight
-![Screenshot 2023-01-24 at 11 17 52 AM](https://user-images.githubusercontent.com/76500838/214362435-4507a9bc-56ac-418f-a46e-58f3a69c2d0a.png)
+![Screenshot 2023-01-26 at 10 25 08 AM](https://user-images.githubusercontent.com/76500838/214891297-11b8db79-1361-492b-8f4f-57c6ed241ce6.png)
 
 </details>
+
+See the documentation on how to change colors [here](https://github.com/SlippingGitty/macOSElk-UserStyle/blob/main/etc/README.md).
 
 ## Espresso colors ☕
 
 Here's a version of this userstyle that uses the Discord Espresso color varriables, if you want something a little more colorful.
 
 <details>
-<summary>Screenshot examples</summary>
+<summary>Sample of colors options</summary>
 
 ## Thinkpad 
 ![Screenshot 2023-01-26 at 8 53 08 AM](https://user-images.githubusercontent.com/76500838/214867682-eeabd682-7f8c-4b7f-8d42-9656c1853cd6.png)
