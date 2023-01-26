@@ -1,6 +1,5 @@
-@-moz-document domain("elk.zone") {
 /* ==UserStyle==
-    @name         macOS Elk Espresso
+    @name         macOS Elk
     @description  Elk themed to look more like the macOS Twitter app
     @author       Vozer
     @namespace    https://github.com/SlippingGitty/macOSElk
@@ -8,17 +7,22 @@
     ==/UserStyle== */
 
 /*
-███╗   ███╗ █████╗  ██████╗ ██████╗ ███████╗        ███████╗██╗     ██╗  ██╗
-████╗ ████║██╔══██╗██╔════╝██╔═══██╗██╔════╝        ██╔════╝██║     ██║ ██╔╝
-██╔████╔██║███████║██║     ██║   ██║███████╗        █████╗  ██║     █████╔╝ 
-██║╚██╔╝██║██╔══██║██║     ██║   ██║╚════██║        ██╔══╝  ██║     ██╔═██╗ 
-██║ ╚═╝ ██║██║  ██║╚██████╗╚██████╔╝███████║███████╗███████╗███████╗██║  ██╗
-╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚══════╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝
-                                                   */    
+    ███╗   ███╗ █████╗  ██████╗ ██████╗ ███████╗        ███████╗██╗     ██╗  ██╗
+    ████╗ ████║██╔══██╗██╔════╝██╔═══██╗██╔════╝        ██╔════╝██║     ██║ ██╔╝
+    ██╔████╔██║███████║██║     ██║   ██║███████╗        █████╗  ██║     █████╔╝ 
+    ██║╚██╔╝██║██╔══██║██║     ██║   ██║╚════██║        ██╔══╝  ██║     ██╔═██╗ 
+    ██║ ╚═╝ ██║██║  ██║╚██████╗╚██████╔╝███████║███████╗███████╗███████╗██║  ██╗
+    ╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚══════╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝
+                                                */
 
-/* ----- Color Varriables ----- */
+/*
+-----------Fonts ⌨️---------
+> This imports either Roboto or the Product Sans (Google Sans) font
+> You may change "productsans.css" to "roboto.css" 
+> Removing or commenting this block of CSS will revert back to the default GG Sans font
+*/
 
-@import url('https://slippinggittys-discord-Themes.github.io/Espresso-Discord-Theme/themes/dark/darkpastel.css');
+@import url('https://slippinggittys-discord-Themes.github.io/Espresso-Discord-Theme/themes/dark/evening.css');
 
 .dark {
     --c-primary: var(--accentD) !important;
@@ -27,7 +31,7 @@
     --c-primary-fade: var(--c-dark-primary-fade);
     --c-border: var(--accent-focusedD);
     --c-border-dark: var(--accent-focusedD);
-    --rgb-bg-base: 17,17,17;
+    --rgb-bg-base: 17, 17, 17;
     --c-bg-active: var(--PGBackground2D);
     --c-bg-card: #ffffff06;
     --c-bg-code: #ffffff06;
@@ -39,119 +43,211 @@
     --c-bg-btn-disabled: var(--PGBackground2D);
     --c-text-btn-disabled: var(--accent-selectedD);
     --c-background-amoled: black;
-    --c-background-dark: rgb(14,17,19);
-    --c-background-midnight: rgb(21,32,43);
+    --c-background-dark: rgb(14, 17, 19);
+    --c-background-midnight: rgb(21, 32, 43);
     --c-sidebar-midnight: rgb(28, 47, 66);
 }
 
 /* ---- Background & Text Color ----- */
+
+/* Background Color */
 html {
     background-color: var(--PGBackgroundD);
-    color: rgb(224,224,224);
+    color: rgb(224, 224, 224);
 }
-#__nuxt > div:nth-child(2) > main > aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide {
+
+/* ---- Sidebar ---- */
+#__nuxt>div:nth-child(2)>main>aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide {
+    background: var(--PGBackground2D);
+    width: auto;
+    border-right: solid 1px rgb(15, 59, 58);
+}
+
+#__nuxt>div:nth-child(2)>main>aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>nav>a.text-primary.router-link-exact-active>div>div
+
+/* selected tab color */
+    {
     background-color: var(--PGBackground2D);
 }
-#__nuxt > div:nth-child(2) > main > aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide {
-    width: auto;
-    border-right: solid 1px rgb(15,59,58);
-}
-#__nuxt > div:nth-child(2) > main > aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div > div {
-    background-color: rgb(31,31,31);
+
+#__nuxt>div:nth-child(2)>main>aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>nav>a.text-primary.router-link-exact-active>div>div
+
+/* selected tab color */
+    {
+    background-color: rgb(31 31 31 / 70%);
 }
 
-/* Quilt */
-#__nuxt > div:nth-child(2) > main > aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide > div > div > nav > a:nth-child(10) > div > div {
-    background: var(--accentD);
-    border-radius: 100px;
-    height: 50px;
-    width: 50px
-}
-.i-ri\:quill-pen-line {
-    min-width: 2.40rem;
-}
+#__nuxt>div:nth-child(2)>main>aside.hidden.native\:w-auto.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>nav>div:nth-child(1),
+#__nuxt>div:nth-child(2)>main>aside.hidden.native\:w-auto.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>nav>div:nth-child(4)
 
-/* ------ Elements that were hidden and resized ------ */
-#__nuxt > div:nth-child(2) > main > aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide > div > div{
-  overflow-y: hidden;
-}
-#__nuxt > div:nth-child(2) > main > aside.hidden.sm\:none.lg\:block.w-1\/4.zen-hide {
+/* hides some dividers */
+    {
     display: none;
 }
-.sm\:mxa, [sm\:mxa=""] {
+
+#__nuxt>div:nth-child(2)>main>aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div
+
+/* hides scroll bar */
+    {
+    overflow-y: hidden;
+}
+
+.sm\:mxa,
+[sm\:mxa=""]
+
+/* properly aligns sidebar icons */
+    {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
 }
-#__nuxt > div:nth-child(2) > main > div {
-  margin: auto;
-  width: 90%;
-  padding: 0px;
+
+#__nuxt>div:nth-child(2)>main>aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>div:nth-child(1)
+
+/* hides logo */
+    {
+    display: none;
 }
+
+.text-xl,
+[text-xl=""]:hover
+
+/* Woah cool hover effect woah */
+    {
+    font-size: 1.05rem;
+    line-height: 1.05rem;
+    transition: .2s;
+}
+
+
+/* Hides Search Button */
+/* #__nuxt>div:nth-child(2)>main>aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>nav>a:nth-child(3) {
+        display: none;
+    } */
+
+/* Quilt Button */
+#__nuxt>div:nth-child(2)>main>aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>nav>a:nth-child(10)>div>div {
+    background: var(--accentD);
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 1px 1px 10px #0000007a;
+}
+
+.i-ri\:quill-pen-line {
+    margin: auto;
+}
+
+/* Mobile App Bar */
+#__nuxt>div:nth-child(2)>main>div>div:nth-child(2) {
+    border-radius: 15px;
+    background: rgba(var(--PGBackground2D, .50));
+    backdrop-filter: blur(200px);
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+/* Make Shift Recreation of XL Sidebar for all sizes */
+.xl\:w-100,
+[xl\:w-100=""] {
+    width: 5.5rem;
+}
+
+.xl-block,
+.xl\:block,
+[xl-block=""],
+[xl\:block=""] {
+    font-size: 0;
+}
+
+#__nuxt>div:nth-child(2)>main>aside.hidden.native\:w-auto.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>nav>div:nth-child(2) {
+    display: none;
+}
+
+#__nuxt>div:nth-child(2)>main {
+    max-width: initial;
+}
+
+/* Little avatar circle thingy :B */
+#__nuxt>div:nth-child(2)>main>aside.hidden.native\:w-auto.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>div:nth-child(4)>div:nth-child(2)>div.v-popper.v-popper--theme-dropdown>button>img,
+#__nuxt>div:nth-child(2)>main>aside.hidden.native\:w-auto.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>div:nth-child(4)>div:nth-child(2)>div:nth-child(1)>div>a>div>div:nth-child(1)>img {
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+#__nuxt>div:nth-child(2)>main>aside.hidden.native\:w-auto.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>div:nth-child(4)>div:nth-child(2)>div:nth-child(1)>div>a>div>div:nth-child(1) {
+    border-radius: 100%;
+    margin-left: -5px;
+}
+
+/* ------ The rest of the Mumei ------ */
+
+#__nuxt>div:nth-child(2)>main>aside.hidden.sm\:none.lg\:block.w-1\/4.zen-hide {
+    display: none;
+}
+
+/* Post Positioning and width */
+#__nuxt>div:nth-child(2)>main>div {
+    margin: auto;
+    width: 90%;
+    padding: 0px;
+}
+
 [p~=l-3] {
-  margin: auto;
-  width: 100%;
-  padding: 5px;
+    margin: auto;
+    width: 100%;
+    padding: 5px;
 }
+
 .vue-recycle-scroller.ready.direction-vertical .vue-recycle-scroller__item-view {
     width: 100%;
 }
+
 .vue-recycle-scroller.direction-vertical .vue-recycle-scroller__item-wrapper {
     width: 100%;
     margin-left: auto;
 }
-#__nuxt > div:nth-child(2) > main > div > div:nth-child(1) > div > div:nth-child(1), #__nuxt > div:nth-child(2) > main > aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide > div > div > nav > div:nth-child(1), #__nuxt > div:nth-child(2) > main > aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide > div > div > nav > div:nth-child(4) {
-    /* backdrop-filter: blur(50px); */
-    display: none;
+
+/* Tab headers (notifs, bookmarks, dms, likes, etc.) */
+#__nuxt>div:nth-child(2)>main>div>div:nth-child(1)>div>div:nth-child(1),
+#__nuxt>div:nth-child(2)>main>aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>nav>div:nth-child(1),
+#__nuxt>div:nth-child(2)>main>aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>nav>div:nth-child(4) {
+    backdrop-filter: blur(50px);
+    background-color: rgba(var(--PGBackground2D), .50)
 }
-#__nuxt > div:nth-child(2) > main > aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide > div > div > div:nth-child(1) {
-    display: none;
-}
-#__nuxt > div:nth-child(2) > main > aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide > div > div > nav > a:nth-child(3) {
-    display: none;
-}
-.justify-between, [justify-between=""] {
-    justify-content: unset;
-}
-div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div > div:nth-child(2) > button {
+
+/* Content Warning Button */
+div:nth-child(3)>div:nth-child(2)>div:nth-child(2)>div>div:nth-child(2)>button {
     margin-top: 5px;
     border-radius: 30px;
-    background-color: blue;
+    background-color: var(--PGBackground2D);
 }
-div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div.status-media-container.status-media-container-1 > div > button > img, #status-109745017181951031 > div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div.status-media-container.status-media-container-1 > div > button > img {
-    aspect-ratio: 15 / 10 !important; 
+
+/* Resizing media thumnail */
+div:nth-child(3)>div:nth-child(2)>div:nth-child(2)>div.status-media-container.status-media-container-1>div>button>img,
+#status-109745017181951031>div:nth-child(3)>div:nth-child(2)>div:nth-child(2)>div.status-media-container.status-media-container-1>div>button>img {
+    aspect-ratio: 15 / 10 !important;
     object-position: 50% 50% !important;
+    border: .1px solid #ffffff21;
 }
-[rounded-lg=""] {
-    border-radius: 1rem;
+
+[rounded-lg=""]
+
+/* Radius */
+    {
+    border-radius: 3%;
 }
-div:nth-child(3) > div:nth-child(2) > div:nth-child(2) > a{
-    border: solid var(--c-border) 1px;
-}
-#__nuxt > div:nth-child(2) > main {
-        max-width: initial;
-}
-#__nuxt > div:nth-child(2) > main > aside.hidden.native\:w-auto.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide > div > div > div:nth-child(4) > div:nth-child(2) > div.v-popper.v-popper--theme-dropdown > button > img {
+
+/* Rich Embed Border */
+#__nuxt>div:nth-child(2)>main>aside.hidden.native\:w-auto.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>div:nth-child(4)>div:nth-child(2)>div.v-popper.v-popper--theme-dropdown>button>img {
     border: 2px solid #ffffff94;
     border-radius: 100%;
 }
 
-.text-xl, [text-xl=""]:hover {
-    font-size: 1.00rem;
-    line-height: 1.75rem;
-    transition: .2s;
-}
+div:nth-child(5)>div:nth-child(2)>div:nth-child(2)>a {
+    border: .1px solid #ffffff21;
 }
 
-@-moz-document url-prefix("https://elk.zone/home") {
-/* ==UserStyle==
-    @name         macOS Elk
-    @description  Elk themed to look more like the macOS Twitter app
-    @author       Vozer
-    @namespace    https://github.com/SlippingGitty/macOSElk
-    @version      1.0.0
-    ==/UserStyle== */
-#__nuxt > div:nth-child(2) > main > div > div:nth-child(1) > div > div.sm\:max-w-600px.md\:shrink-0 > div > div:nth-child(1) {
-    display: none;
-}
+div:nth-child(3)>div:nth-child(2)>div:nth-child(2)>a {
+    border: solid var(--PGBackground2D)1px;
 }
