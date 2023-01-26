@@ -25,6 +25,9 @@ One bored day, I thought that it would be cool if this website looked more like 
 ## OLED
 ![Screenshot 2023-01-26 at 10 22 32 AM](https://user-images.githubusercontent.com/76500838/214890660-50469c3f-40f8-451f-93ba-064272501ec7.png)
 
+## Light
+![Screenshot 2023-01-26 at 11 23 07 AM](https://user-images.githubusercontent.com/76500838/214905488-53a68d84-13d2-4c37-bd7b-aa2cf21c4d0c.png)
+
 ## Midnight
 ![Screenshot 2023-01-26 at 10 25 08 AM](https://user-images.githubusercontent.com/76500838/214891297-11b8db79-1361-492b-8f4f-57c6ed241ce6.png)
 
