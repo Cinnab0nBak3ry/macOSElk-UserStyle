@@ -6,9 +6,9 @@
 
 ## Why? 🤔
 
-I used to browse twitter on my Mac near-exclusively through it's application. Switching from Twitter to Mastodon really kicked my second nature in the shins, but luckily [Elk.zone](https://elk.zone/) was announced months later, which looks just like the Twitter website. Bad-ass. 
+I used to browse Twitter on my Mac near-exclusively through it's application. Switching from Twitter to Mastodon really kicked my second nature in the shins, but luckily [Elk.zone](https://elk.zone/) was announced months later, which looks just like the Twitter website. Bad-ass. 
 
-One bored day, I thought that it would be cool if this website looked more like the application. So here we are! 
+One bored day, I thought that it would be cool if this website looked more like the Twitter application, because I kinda miss using it. So here we are! 
 
 ## Enough backstory, give me the thingy! 📥
 
