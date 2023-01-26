@@ -10,6 +10,8 @@ I only have this here in case anyone wants to yell at me on how to do things bet
 
 * Install by pressing "Install with Stylus" see look it says that --> [![](https://img.shields.io/badge/install%20with-stylus-006666?style=flat-square)](https://github.com/SlippingGitty/macOSElk/raw/main/macOSElk.user.css)
 
+* Also install on [userstyles.world](https://userstyles.world/style/8294/macos-elk)
+
 <details>
 <summary>More colors</summary>
 
