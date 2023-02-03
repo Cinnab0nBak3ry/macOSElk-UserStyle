@@ -90,13 +90,13 @@
 /* Background Color */
 
 html {
-    background-color: var(--c-background-midnight);
+    background-color: var(--c-background-dark);
     color: var(--c-text-color);
 }
 
 /* ---- Sidebar ---- */
-#__nuxt>div:nth-child(2)>main>aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide {
-    background-color: var(--c-sidebar-midnight);
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4  {
+    background-color: var(--c-sidebar-dark);
     width: auto;
     border-right: solid 1px rgb(15, 59, 58);
 }
@@ -106,10 +106,12 @@ html {
 #__nuxt>div:nth-child(2)>main>aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>nav>a.text-primary.router-link-exact-active>div>div /* selected tab color */ {
     background-color: rgb(31 31 31 / 70%);
 }
-#__nuxt > div:nth-child(2) > main > aside.hidden.native\:w-auto.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide > div > div > nav > div:nth-child(1), #__nuxt > div:nth-child(2) > main > aside.hidden.native\:w-auto.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide > div > div > nav > div:nth-child(4) /* hides some dividers */ {
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > nav > div:nth-child(1),
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > nav > div:nth-child(4), #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > nav > div:nth-child(2), #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > div:nth-child(1) > div/* hides some dividers */ {
         display: none;
 }
-#__nuxt>div:nth-child(2)>main>aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div /* hides scroll bar */ {
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > nav
+ /* hides scroll bar */ {
     overflow-y: hidden;
 }
 .sm\:mxa,
@@ -118,7 +120,7 @@ html {
     margin-right: auto;
     margin-bottom: 10px;
 }
-#__nuxt>div:nth-child(2)>main>aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>div:nth-child(1) /* hides logo */ {
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > div:nth-child(1) > a /* hides logo */ {
     display: none;
 }
 .text-xl,
@@ -128,6 +130,9 @@ html {
     transition: .2s;
 }
 
+    #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > div:nth-child(4) > div:nth-child(2) {
+        background-color:  var(--c-sidebar-dark);
+}
 
 /* Hides Search Button */
 /* #__nuxt>div:nth-child(2)>main>aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>nav>a:nth-child(3) {
@@ -135,7 +140,7 @@ html {
 } */
 
 /* Quilt Button */
-#__nuxt>div:nth-child(2)>main>aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>nav>a:nth-child(10)>div>div {
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > nav > a:nth-child(10) > div > div {
     background: rgb(54, 159, 230);
     border-radius: 100px;
     height: 50px;
@@ -175,13 +180,13 @@ html {
 }
 
 /* Little avatar circle thingy :B */
-#__nuxt>div:nth-child(2)>main>aside.hidden.native\:w-auto.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>div:nth-child(4)>div:nth-child(2)>div.v-popper.v-popper--theme-dropdown>button>img,
-#__nuxt>div:nth-child(2)>main>aside.hidden.native\:w-auto.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>div:nth-child(4)>div:nth-child(2)>div:nth-child(1)>div>a>div>div:nth-child(1)>img {
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > div:nth-child(4) > div:nth-child(2) > div.v-popper.v-popper--theme-dropdown > button > img,
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div > a > div > div:nth-child(1) > img{
     border: 2px solid white;
     border-radius: 100%;
 }
 
-#__nuxt>div:nth-child(2)>main>aside.hidden.native\:w-auto.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>div:nth-child(4)>div:nth-child(2)>div:nth-child(1)>div>a>div>div:nth-child(1) {
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div > a > div > div:nth-child(1) {
     border-radius: 100%;
     margin-left: -5px;
 }
