@@ -187,7 +187,7 @@ html {
 /* Little avatar circle thingy :B */
 #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > div:nth-child(4) > div:nth-child(2) > div.v-popper.v-popper--theme-dropdown > button > img,
 #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > div:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div > a > div > div:nth-child(1) > img{
-    border: 2px solid white;
+    border: 2px solid #b5b5b5;
     border-radius: 100%;
 }
 
