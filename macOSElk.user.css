@@ -195,6 +195,11 @@ html {
     border-radius: 100%;
     margin-left: -5px;
 }
+  
+ .p-1, .p1, [p1=""], .transition-opacity, [transition-opacity=""] {
+    border-radius: 100px;  
+    background-color: transparent;
+ }
 
 /* ------ The rest of the Mumei ------ */
 
