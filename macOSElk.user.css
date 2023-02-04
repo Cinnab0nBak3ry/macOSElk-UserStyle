@@ -129,6 +129,9 @@ html {
     line-height: 1.05rem;
     transition: .2s;
 }
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > nav{
+        color: #b5b5b5;
+} 
     
     
     
