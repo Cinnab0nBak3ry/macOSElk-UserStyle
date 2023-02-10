@@ -57,6 +57,12 @@ Here's a version of this userstyle that uses the Discord Espresso color varriabl
 
 [![](https://img.shields.io/badge/install%20with-stylus-006666?style=flat-square)](https://github.com/SlippingGitty/macOSElk-UserStyle/raw/main/etc/Espresso-macOSElk.user.css)
 
+## FireFox Users
+Stylus users on Firefox have to be on version 102 or later and toggle "Patch CSP to allow style assets".  
+  Chromium browsers shall be fine by default on any recent version.
+  
+  ![stylus setting](https://raw.githubusercontent.com/SlippingGittys-Discord-Themes/surCord/main/assets/stylussettingneeded.png)
+
 ___
 
 ### Looking for this?
