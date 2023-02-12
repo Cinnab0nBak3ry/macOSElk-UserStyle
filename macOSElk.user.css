@@ -107,7 +107,7 @@ html {
     background-color: rgb(31 31 31 / 70%);
 }
 #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > nav > div:nth-child(1),
-#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > nav > div:nth-child(4), #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > nav > div:nth-child(2), #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > div:nth-child(1) > div/* hides some dividers */ {
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > nav > div:nth-child(4), #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > nav > div:nth-child(2), #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > div:nth-child(1) > div, #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a:nth-child(2), .py-4, .py4, [py-4=""], [py4=""] /* hides some dividers */ {
         display: none;
 }
 #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > nav
@@ -129,9 +129,6 @@ html {
     line-height: 1.05rem;
     transition: .2s;
 }
-#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > nav{
-        color: #b5b5b5;
-} 
     
     
     
@@ -145,16 +142,20 @@ html {
 } */
 
 /* Quilt Button */
-#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > nav > a:nth-child(10) > div > div {
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > nav > a:nth-child(10) > div > div, #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a:nth-child(9) {
     background: rgb(54, 159, 230);
+    color: white;
     border-radius: 100px;
     height: 50px;
     width: 50px;
     box-shadow: 1px 1px 10px #0000007a;
+    margin-left: 3px;
 }
 
 .i-ri\:quill-pen-line {
     margin: auto;
+    margin-top: 6px;
+    margin-left: 3px;
 }
 
 /* Mobile App Bar */    
@@ -195,11 +196,6 @@ html {
     border-radius: 100%;
     margin-left: -5px;
 }
-  
- .p-1, .p1, [p1=""], .transition-opacity, [transition-opacity=""] {
-    border-radius: 100px;  
-    background-color: transparent;
- }
 
 /* ------ The rest of the Mumei ------ */
 
@@ -268,14 +264,31 @@ div:nth-child(3)>div:nth-child(2)>div:nth-child(2)>a {
     margin-right: 5px;
     margin-left: 5px;
 }
-
+    #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a:nth-child(3) {
+        display: none;
+    }
 .i-ri\:list-check, [i-ri\:list-check=""] {
     background-color: currentColor;
     content: "";
     -webkit-mask-image: url("https://files.catbox.moe/rnmwci.svg");
     mask-image: url("https://files.catbox.moe/rnmwci.svg");
 }
-
+.p-1, .p1, [p1=""], .transition-opacity, [transition-opacity=""] {
+    border-radius: 100px;  
+        background-color: transparent;
+    }
+   
+/*#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a:nth-child(15) > div > div, #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a:nth-child(14) > div > div > div, #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a:nth-child(13) > div > div > div, #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a:nth-child(17) > div > div > div {
+    opacity: 0;
+}
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a:nth-child(15) > div > div:hover, #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a:nth-child(14) > div > div > div:hover, #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a:nth-child(13) > div > div > div:hover, #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a:nth-child(17) > div > div > div:hover {
+    opacity: 100%;
+    transition: .3s;
+}*/
+    
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4 > div > div > nav{
+        color: #b5b5b5;
+    } 
 }
 
 @-moz-document url-prefix("https://elk.zone/home") {
