@@ -111,6 +111,10 @@ html {
         display: none;
 } */
 
+.zen .zen-hide {
+    opacity: 1;
+}
+
 .py-4, .py4, [py-4=""], [py4=""] {
     padding-bottom: 1px;
     padding-top: 1rem;
