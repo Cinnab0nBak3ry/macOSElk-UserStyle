@@ -168,6 +168,23 @@ html {
 }
 
 
+/* Title Bar */
+#__nuxt>div:nth-child(2)>main>div>div:nth-child(1)>div>div:nth-child(1) [gap-2=""]  {
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(219,219,219);
+    font-weight: 900;
+    font-size: 20px;
+    height: 15px;
+}
+[i-ri\:home-5-line=""], [i-ri\:notification-4-line=""], [i-ri\:at-line=""], [i-ri\:heart-3-line=""], [i-ri\:bookmark-line=""], [i-ri\:settings-3-line=""] {
+    display: none;
+}
+#__nuxt>div:nth-child(2)>main>div>div:nth-child(1)>div>div:nth-child(1) {
+    border-bottom: solid 0.1px #a4a4a40f;
+}
+
+
 /* Mobile App Bar */    
 #__nuxt>div:nth-child(2)>main>div>div:nth-child(2) {
     border-radius: 15px;
@@ -270,9 +287,12 @@ div:nth-child(3)>div:nth-child(2)>div:nth-child(2)>a {
 }
 #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div {
     background-color: #00000045;
-    border-radius: 10px;
-    margin-right: 5px;
-    margin-left: 5px;
+    border-radius: 0px;
+    margin-right: -10px;
+    margin-left: -10px;
+    padding-top: 8px;
+    padding-bottom: 2px;
+    color: #fff;
 }
     #__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a:nth-child(3) {
         display: none;
@@ -320,11 +340,12 @@ div:nth-child(3)>div:nth-child(2)>div:nth-child(2)>a {
 
 /* Hides the annoying post thing on the top, literally has its own fucking tab */
 #__nuxt>div:nth-child(2)>main>div>div:nth-child(1)>div>div.sm\:max-w-600px.md\:shrink-0>div>div:nth-child(1),
-#__nuxt>div:nth-child(2)>main>div>div:nth-child(1)>div>div:nth-child(1),
 #__nuxt>div:nth-child(2)>main>aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>nav>div:nth-child(1),
 #__nuxt>div:nth-child(2)>main>aside.hidden.sm\:flex.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.justify-end.xl\:me-4.zen-hide>div>div>nav>div:nth-child(4) {
     display: none;
 }
+
+
 }
 
 @-moz-document domain("elk.zone") {
@@ -417,6 +438,108 @@ div:nth-child(3)>div:nth-child(2)>div:nth-child(2)>a {
 
 
 .i-ri\:list-check, [i-ri\:list-check=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/4s97wj.svg");
+    mask-image: url("https://files.catbox.moe/4s97wj.svg");
+} 
+
+
+
+}
+
+@-moz-document domain("elk.zone") {
+ .i-ri\:repeat-fill, .i-ri\:repeat-line, [i-ri\:repeat-fill=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/4b3uzs.svg");
+    mask-image: url("https://files.catbox.moe/4b3uzs.svg");
+}
+
+
+.i-ri\:bookmark-line, [i-ri\:bookmark-line=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/i5rdg9.svg");
+    mask-image: url("https://files.catbox.moe/i5rdg9.svg");
+}
+
+.i-ri\:bookmark-fill {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/i5rdg9.svg");
+    mask-image: url("https://files.catbox.moe/3tltw9.svg");
+}
+
+.i-ri-chat-1-line, .i-ri\:chat-1-line, [i-ri-chat-1-line=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/5mm9pq.svg");
+    mask-image: url("https://files.catbox.moe/5mm9pq.svg");
+}
+
+.i-ri\:search-line, [i-ri\:search-line=""] {
+    -webkit-mask-image: url("https://files.catbox.moe/4myvk1.svg");
+    mask-image: url("https://files.catbox.moe/j3m1s6.svg");
+}
+
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div .i-ri\:home-5-line, [i-ri\:home-5-line=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/sdinqk.svg");
+    mask-image: url("https://files.catbox.moe/sdinqk.svg");
+    transition: .3s;
+}
+
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div .i-ri\:notification-4-line, [i-ri-notification-4-line=""], [i-ri\:notification-4-line=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/7kp1bu.svg");
+    mask-image: url("https://files.catbox.moe/7kp1bu.svg");
+    transition: .3s;
+}
+
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div  .i-ri\:at-line, [i-ri\:at-line=""] {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/puklis.svg");
+    mask-image: url("https://files.catbox.moe/puklis.svg");
+}
+
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div  .i-ri\:heart-3-line {
+    background-color: currentColor;
+    content: "";
+    -webkit-mask-image: url("https://files.catbox.moe/oc0j9u.svg");
+    mask-image: url("https://files.catbox.moe/oc0j9u.svg");
+}
+
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div .i-ri\:bookmark-line, [i-ri\:bookmark-line=""] {
+    -webkit-mask-image: url("https://files.catbox.moe/kmswh1.svg");
+    mask-image: url("https://files.catbox.moe/kmswh1.svg");
+}
+
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div .i-ri\:hashtag, [i-ri\:hashtag=""] {
+    -webkit-mask-image: url("https://files.catbox.moe/ywvyh2.svg");
+    mask-image: url("https://files.catbox.moe/ywvyh2.svg");
+}
+
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div  .i-ri\:group-2-line, [i-ri\:group-2-line=""] {
+    -webkit-mask-image: url("https://files.catbox.moe/qiiohv.svg");
+    mask-image: url("https://files.catbox.moe/qiiohv.svg");
+}
+
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div  .i-ri\:earth-line, [i-ri\:earth-line=""] {
+    -webkit-mask-image: url("https://files.catbox.moe/m4x30j.svg");
+    mask-image: url("https://files.catbox.moe/m4x30j.svg");
+}
+
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div  .i-ri\:settings-3-line, [i-ri\:settings-3-line=""] {
+    -webkit-mask-image: url("https://files.catbox.moe/k7o23i.svg");
+    mask-image: url("https://files.catbox.moe/k7o23i.svg");
+}
+
+
+#__nuxt > div:nth-child(2) > main > aside.native\:w-auto.w-1\/8.md\:w-1\/6.lg\:w-1\/5.xl\:w-1\/4.zen-hide > div > div > nav > a.text-primary.router-link-exact-active > div  .i-ri\:list-check, [i-ri\:list-check=""] {
     background-color: currentColor;
     content: "";
     -webkit-mask-image: url("https://files.catbox.moe/4s97wj.svg");
