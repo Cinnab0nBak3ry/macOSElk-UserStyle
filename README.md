@@ -1,7 +1,8 @@
 <h1 align="center">macOS Elk</h1>
 <p align="center">Userstyle that makes Elk.zone look even MORE like Twitter</p>
 
-![Screenshot 2023-03-07 at 11 50 35 PM](https://user-images.githubusercontent.com/76500838/223630271-f9364d71-569f-4bd7-8234-0f1e6ffd95ec.png)
+<img width="955" alt="SCR-20230829-khhu" src="https://github.com/Cinnab0nBak3ry/macOSElk-UserStyle/assets/76500838/b17b12b0-bfba-43de-bfe6-04dc8c58aebd">
+
 
 ## Why? 🤔
 
